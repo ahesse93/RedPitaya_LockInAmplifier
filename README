@@ -1,0 +1,5 @@
+Lock in amplifier implementation running on the RedPitaya's FPGA
+
+To edit the project source RedPitaya_LockInAmplifier.tcl in Vivado
+
+To just use the lock in use LockIn.bit
