@@ -1,9 +1,10 @@
 Lock in amplifier implementation running on the RedPitaya's FPGA
 
-To edit the project `source RedPitaya_LockInAmplifier.tcl` in the Vivado TCL console
+To edit the project enter `source RedPitaya_LockInAmplifier.tcl` after navigating to the project folder
+in the Vivado TCL console
 
-To just use the lock in use LockIn.bit
-
+To just use the lock in amplifier copy the file onto the RedPitaya's SD card
+and enter `cat "path"/LockIn.bit > /dev/xdevcfg`, where "path" is the location of LockIn.bit on your SD card
 
 Still in a really early stage, so there are timing issues and no GUI
 
