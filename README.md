@@ -4,7 +4,8 @@ To edit the project enter `source RedPitaya_LockInAmplifier.tcl` after navigatin
 in the Vivado TCL console
 
 To just use the lock in amplifier copy the file onto the RedPitaya's SD card
-and enter `cat "path"/LockIn.bit > /dev/xdevcfg` after connecting to your RedPitaya via SSH (`ssh root@yourIP`, password is "root), where "path" is the location of LockIn.bit on your SD card
+and enter `cat "path"/LockIn.bit > /dev/xdevcfg` after connecting to your RedPitaya via SSH
+(`ssh root@yourIP`, password is "root"), where "path" is the location of LockIn.bit on your SD card
 
 Still in a really early stage, so there are timing issues and no GUI
 
