@@ -1,3 +1,5 @@
+**Discontinued - I'd recommend to use PyRPL instead, which can also act as a lock in amplifier**
+
 Lock in amplifier implementation running on the RedPitaya's FPGA
 
 To edit the project enter `source RedPitaya_LockInAmplifier.tcl` after navigating to the project folder
