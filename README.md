@@ -1,3 +1,5 @@
+# RedPitaya Lock-In Amplifier
+
 **Discontinued - I'd recommend to use PyRPL instead, which can also act as a lock in amplifier**
 
 Lock in amplifier implementation running on the RedPitaya's FPGA
